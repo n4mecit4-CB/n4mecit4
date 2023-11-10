@@ -69,7 +69,7 @@ const handler = async (m, { conn, usedPrefix }) => {
         title: "ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ",
         body: wm,
         thumbnail: imagen1,
-        sourceUrl: "",
+        sourceUrl: "wa.me/56986469687",
       },
     },
     caption: info,

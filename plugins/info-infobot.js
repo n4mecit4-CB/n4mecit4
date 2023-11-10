@@ -24,8 +24,8 @@ const handler = async (m, { conn, usedPrefix }) => {
   const info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
-╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *𝙱𝚛𝚞𝚗𝚘 𝚂𝚘𝚋𝚛𝚒𝚗𝚘*
-╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+52 1 999 209 5479*
+╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *𝕵𝖔𝖘𝖘 🏴‍☠️*
+╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+56 9 8646 9687*
 ╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
 ╠➥ [🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: *${chats.length - groups.length}*
 ╠➥ [🦜] 𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: *${groups.length}* 
@@ -43,7 +43,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
 ╠  *${speed} ms* 
 ╠
-╠═〘 𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭 〙 ═
+╠═〘 𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️ 〙 ═
 `.trim();
   const doc = [
     "pdf",
@@ -54,22 +54,22 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD` },
+    document: { url: `https://www.instagram.com/ancelzzz/` },
     mimetype: `application/${document}`,
-    fileName: `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
+    fileName: `「  𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️ 」`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+        mediaUrl: "https://www.instagram.com/ancelzzz/",
         mediaType: 2,
         previewType: "pdf",
         title: "ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ",
         body: wm,
         thumbnail: imagen1,
-        sourceUrl: "https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA",
+        sourceUrl: "https://www.instagram.com/ancelzzz/",
       },
     },
     caption: info,

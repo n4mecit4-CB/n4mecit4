@@ -55,7 +55,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
     document: { url: `https://www.instagram.com/ancelzzz/` },
-    mimetype: `application/${document}`,
+    mimetype: `application/`,
     fileName: `「  𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️ 」`,
     fileLength: 99999999999999,
     pageCount: 200,

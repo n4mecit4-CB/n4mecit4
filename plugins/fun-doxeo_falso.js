@@ -50,7 +50,7 @@ fakeData.name_tag = text //`@${m.mentionedJid[0].split('@')[0]}` //conn.getName(
 fakeData.name_tag = text    
 }
     
-const doxeo = `*[ ✔ ] Persona doxxeada con éxito.*\n\n*—◉ Doxxeo realizado en:*\n*◉ ${executionTime} segundos.*\n*—◉ Resultados obtenidos del doxxeo:*
+const doxeo = `*[ ✔ ] Persona doxxeada con éxito.*\n\n*—◉ Doxxeo realizado en:*\n*◉ ${executionTime} segundos.*\n*—◉ Resultados obtenidos del doxxeo: 𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️*
 
 *Nombre:* ${fakeData.name_tag}
 *Ip:* ${fakeData.ip}

@@ -10,38 +10,38 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['50499698072', '💫 Mystic - Collaborator 1 💫', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
-  ['5212412377467', '💫 Mystic - Collaborator 6 💫', true],
-  ['5215533827255', '💫 Mystic - Collaborator 7 💫', false],
-  ['59895555511', '💫 Mystic - Collaborator 8 💫', true],
-  ['393518398856','💫 Mystic - Tester Fabri115💫', true],
-  ['593968585283'],
-  ['5219993404349'],
-  ['5219991402134'],
-  ['5492266466080'],
-  ['5219996125657'],
-  ['5218442114446'],
-  ['59894808483'],
-  ['593980586516'], 
-  ['595975740803'],  
-  ['5492266613038'], 
-  ['595992611272']
+  ['51930454874', '👑 𝙅𝙤𝙨𝙨- Creador 👑', true],
+  ['50360082744', '💫 𝙅𝙤𝙨𝙨 - Collaborator 1 💫', true],
+  ['5491162522169', '💫 𝙅𝙤𝙨𝙨 - Collaborator 2 💫', true],
+  ['56986469687', '💫 𝙅𝙤𝙨𝙨 - Collaborator 3 💫', true],
+  ['59174332123', '💫 𝙅𝙤𝙨𝙨 - Collaborator 4 💫', true],
+  ['59163552945', '💫 𝙅𝙤𝙨𝙨 - Collaborator 5 💫', true],
+  ['51923844756', '💫 𝙅𝙤𝙨𝙨 - Collaborator 6 💫', true],
+  ['51936144299', '💫 𝙅𝙤𝙨𝙨c - Collaborator 7 💫', false],
+  ['56986469687', '💫 𝙅𝙤𝙨𝙨- Collaborator 8 💫', true],
+  ['56986469687','💫 𝙅𝙤𝙨𝙨 - Tester Fabri115💫', true],
+  ['51930454874'],
+  ['50360082744'],
+  ['50360082744'],
+  ['50360082744'],
+  ['50360082744'],
+  ['5491162522169'],
+  ['5491162522169'],
+  ['5491162522169'], 
+  ['51930454874'],  
+  ['51930454874'], 
+  ['51930454874']
 ];
 
-global.suittag = ['5219993404349'];
-global.prems = ['51995386439'];
+global.suittag = ['51930454874'];
+global.prems = ['51930454874'];
 
-global.packname = '(☞ﾟ∀ﾟ)☞';
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
-global.titulowm = '🤖 ＴＨＥ ＭＹＳＴＩＣ － ＢＯＴ 🤖';
-global.titulowm2 = `乂  𝚃 𝙷 𝙴  𝙼 𝚈 𝚂 𝚃 𝙸 𝙲  -  𝙱 𝙾 𝚃  乂`
-global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
+global.packname = '𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️';
+global.author = '★𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️';
+global.wm = '★𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️';
+global.titulowm = '𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️';
+global.titulowm2 = `乂 𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️  乂`
+global.igfg = '★𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -62,15 +62,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`;
-global.gt = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
-global.mysticbot = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️`;
+global.gt = '★𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️★';
+global.mysticbot = '★𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️★';
+global.md = 'https://www.instagram.com/ancelzzz/';
+global.mysticbot = 'https://www.instagram.com/ancelzzz/';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
-global.nomorown = '5219993404349';
+global.nomorown = '51930454874';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';

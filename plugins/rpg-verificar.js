@@ -5,7 +5,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   const name2 = conn.getName(m.sender);
   const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => global.imagen1);
   if (user.registered === true) throw `[❗𝐈𝐍𝐅𝐎❗] 𝚈𝙰 𝙴𝚂𝚃𝙰𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾\n\n¿𝚀𝚄𝙸𝚁𝚁𝙴 𝚅𝙾𝙻𝚅𝙴𝚁 𝙰 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝚁𝚂𝙴?\n\n 📌𝚄𝚂𝙴 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙿𝙰𝚁𝙰 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝚁 𝚂𝚄 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾\n*${usedPrefix}unreg* <Número de serie>`;
-  if (!Reg.test(text)) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙵𝙾𝚁𝙼𝙰𝚃𝙾 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾*\n\n*—◉ 𝚄𝚂𝙾 𝙳𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾: ${usedPrefix + command} nombre.edad*\n*—◉ Ejemplo: ${usedPrefix + command} Shadow.18*`;
+  if (!Reg.test(text)) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙵𝙾𝚁𝙼𝙰𝚃𝙾 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾*\n\n*—◉ 𝚄𝚂𝙾 𝙳𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾: ${usedPrefix + command} nombre.edad*\n*—◉ Ejemplo: ${usedPrefix + command} joss.18*`;
   let [_, name, splitter, age] = text.match(Reg);
   if (!name) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙳𝙴𝙱𝙴𝚂 𝙿𝙾𝙽𝙴𝚁 𝚄𝙽 𝙽𝙾𝙼𝙱𝚁𝙴*';
   if (!age) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙰 𝙴𝙳𝙰𝙳 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝚅𝙰𝙲𝙸𝙰*';
@@ -19,7 +19,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   user.registered = true;
   const sn = createHash('md5').update(m.sender).digest('hex');
   const caption = `┏┅ ━━━━━━━━━━━━ ┅ ━
-┇「 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 」
+┇「 𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️」
 ┣┅ ━━━━━━━━━━━━ ┅ ━
 ┃ *𝙽𝙾𝙼𝙱𝚁𝙴:* ${name}
 ┃ *𝙴𝙳𝙰𝙳:* ${age} años

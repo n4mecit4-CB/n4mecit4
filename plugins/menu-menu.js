@@ -61,6 +61,10 @@ ${readMore}
 ┣ ඬ⃟ ⭐ _${usedPrefix}fixmsgespera_
 ┣➤ Mensajes en espera (owner)
 ┣ ඬ⃟ ⭐ _${usedPrefix}dsowner_
+┣➤ enlaza tu amor (todos)
+┣ ඬ⃟ ⭐ _${usedPrefix}ship_
+┣➤ Pajas locas (todos)
+┣ ඬ⃟ ⭐ _${usedPrefix}sega_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓

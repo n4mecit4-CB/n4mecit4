@@ -20,7 +20,7 @@ try {
     *➤ Total de Participantes:* ${totalParticipants}
     *➤ Link:* ${isBotAdmin ? `https://chat.whatsapp.com/${await conn.groupInviteCode(jid) || '--- (Error) ---'}` : '--- (No admin) ---'}\n\n`;
   }
-  m.reply(`*Lista de grupos del Bot* 🤖\n\n*—◉ Total de grupos:* ${totalGroups}\n\n${txt}`.trim());
+  m.reply(`*Lista de grupos del 𝕵𝖔𝖘𝖘 𝖇𝖔𝖙 🏴‍☠️* 🤖\n\n*—◉ Total de grupos:* ${totalGroups}\n\n${txt}`.trim());
 } catch {
   const groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats);
   const totalGroups = groups.length;
@@ -41,7 +41,7 @@ try {
     *➤ Total de Participantes:* ${totalParticipants}
     *➤ Link:* ${isBotAdmin ? '--- (Error) ---' : '--- (No admin) ---'}\n\n`;
   }
-  m.reply(`*Lista de grupos del Bot* 🤖\n\n*—◉ Total de grupos:* ${totalGroups}\n\n${txt}`.trim());
+  m.reply(`*Lista de grupos del 𝕵𝖔𝖘𝖘 𝖇𝖔𝖙 🏴‍☠️* 🤖\n\n*—◉ Total de grupos:* ${totalGroups}\n\n${txt}`.trim());
  }    
 };
 handler.help = ['groups', 'grouplist'];

@@ -9,7 +9,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 
 *—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 MI CREADOR POR SI GUSTA 𝙴𝚂 wa.me/56986469687*`.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
+    'document': {url: `https://instagram.com/ancelzzz`},
     'mimetype': `application/${document}`,
     'fileName': `「 𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️」`,
     'fileLength': 99999999999999,

@@ -6,6 +6,9 @@ throw false
 let pesan = args.join` `
 let oi = `𝐿𝐼𝑆𝑇𝐴 𝐹𝐸𝑀💗: ${pesan}`
 let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
+for (let mem of participants) {
+teks += `ㅤ
+│
 │         💗 𝐁𝐨𝐭 𝐝𝐞 𝐉𝐨𝐬𝐬💗
 │        ₊˚︶︶︶︶︶︶︶︶˚ ‧₊
 │
@@ -26,7 +29,7 @@ let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
 │   ⊹ ִֶָ  𝘋𝘰𝘯𝘢𝘥𝘰𝘳𝘢 𝘥𝘦 𝘴𝘢𝘭𝘢: 
 │
 ╰───────────────๑❀๑ •`
-conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
+conn.sendMessage(m.chat, { text: teks,(a => a.id) }, )
 }
 handler.help = ['smsf00 <mesaje>','fem00 <mesaje>']
 handler.tags = ['group']

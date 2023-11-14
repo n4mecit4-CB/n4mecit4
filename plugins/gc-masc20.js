@@ -10,7 +10,7 @@ for (let mem of participants) {
 teks += `@${mem.id.split('@')[0]}❤️‍🔥`}
 teks += `ㅤ
 │
-│         🍆 𝐁𝐨𝐭 𝐝𝐞 𝐬𝐮𝐭𝐫𝐚 👌🏻
+│         🍆 𝐁𝐨𝐭 𝐝𝐞 𝐉𝐨𝐬𝐬 👌🏻
 │        ₊˚🔥🔥🔥🔥🔥🔥🔥˚ ‧₊
 │
 │       𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥@:
@@ -32,9 +32,9 @@ teks += `ㅤ
 ╰───────────────•`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
-handler.help = ['smsm20 <mesaje>','masc20 <mesaje>']
+handler.help = ['smsm20 <mesaje>','masc20 <mesaje>','listamasc20 <mesaje>']
 handler.tags = ['group']
-handler.command = /^(smsm20|masc20)$/i
+handler.command = /^(smsm20|masc20|listamasc20)$/i
 handler.admin = true
 handler.group = true
 export default handler

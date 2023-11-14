@@ -6,12 +6,16 @@ throw false
 let pesan = args.join` `
 let oi = `𝐿𝐼𝑆𝑇𝐴 𝐹𝐸𝑀💗: ${pesan}`
 let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
-│         💗 𝐁𝐨𝐭 𝐝𝐞 𝐉𝐨𝐬𝐬💗
+for (let mem of participants) {
+teks += `@${mem.id.split('@')[0]}💗`}
+teks += `ㅤ
+│
+│         💗 𝐁𝐨𝐭 𝐝𝐞 𝐬𝐮𝐭𝐫𝐚 💗
 │        ₊˚︶︶︶︶︶︶︶︶˚ ‧₊
 │
 │      ෆ 𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥𝘢:
 │      ෆ 𝘏𝘰𝘳𝘢𝘳𝘪𐐫:
-│         ‧₊⌗ 00 🇵🇪 ⌇ 01 🇨🇱 ⌇ 02 🇦🇷      
+│         ‧₊⌗ 18 🇵🇪 ⌇ 19 🇨🇱 ⌇ 20 🇦🇷      
 │
 │ㅤㅤʚ 𔘓  𝘑𝘶𝘨𝘢𝘥𝘰𝘳𝘢𝘴:
 │ㅤ💗• 
@@ -28,9 +32,9 @@ let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
 ╰───────────────๑❀๑ •`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
-handler.help = ['smsf00 <mesaje>','fem00 <mesaje>']
+handler.help = ['smsf18 <mesaje>','fem18 <mesaje>']
 handler.tags = ['group']
-handler.command = /^(smsf00|fem00|listafem)$/i
+handler.command = /^(smsf18|fem18)$/i
 handler.admin = true
 handler.group = true
 export default handler

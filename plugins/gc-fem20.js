@@ -34,7 +34,7 @@ conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, 
 }
 handler.help = ['smsf20 <mesaje>','fem20 <mesaje>','listafem20 <mesaje>']
 handler.tags = ['group']
-handler.command = /^(smsf20|fem20)|listafem20)$/i
+handler.command = /^(smsf20|fem20|listafem20)$/i
 handler.admin = true
 handler.group = true
 export default handler

@@ -13,11 +13,11 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Joss\nWhatsApp Bot MD', {
+say('C4rLa\nWhatsApp Bot MD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot creado por @ancelzzz`, {
+say(`Bot creado por @n4mecit4off`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});

@@ -22,12 +22,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️* —◉
+║    ◉— 💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞 —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝗛ola, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *Owner:* 𝕵𝖔𝖘𝖘 🏴‍☠️
-║➤ *Numero:* wa.me/56986469687
+║➤ *Owner:* 💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞
+║➤ *Numero:* wa.me/56922396080
 ║➤ *ayudante:* wa.me/5491162522169
 ║➤ *Instagram:* @ancelzzz
 ║➤ *Fecha:* ${date}
@@ -43,7 +43,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣ *🧰 Experiencia:* ${exp}
 ┣ *⚓ Rango:* ${role}
 ┣ *💎 Diamantes:* ${limit}
-┣ *👾 JosscCoins:* ${money}
+┣ *👾 NamecCoins:* ${money}
 ┣ *🪙 Tokens:* ${joincount}
 ┣ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ┗━━━━━━━━━━━━━━━━┛

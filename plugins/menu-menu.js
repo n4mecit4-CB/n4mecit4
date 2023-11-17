@@ -29,7 +29,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ║➤ *Owner:* 💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞
 ║➤ *Numero:* wa.me/56922396080
 ║➤ *ayudante:* wa.me/5491162522169
-║➤ *Instagram:* @ancelzzz
+║➤ *Instagram:* https://instagram.com/n4mecit4?igshid=MTk0NTkyODZkYg==
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* ${uptime}
 ║➤ *Usuarios regs:* ${rtotalreg}

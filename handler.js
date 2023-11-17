@@ -1529,7 +1529,7 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
     
 *■ Para desactivar esta función, escribe el comando:*
 *—◉ #disable antidelete*
-┗━━━━━━━━━⬣  𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️  ⬣━━━━━━━━━`.trim();
+┗━━━━━━━━━⬣  N4mecit4_ 🏴‍☠️  ⬣━━━━━━━━━`.trim();
         await mconn.conn.sendMessage(msg.chat, {text: antideleteMessage, mentions: [participant]}, {quoted: msg})
         mconn.conn.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
     } catch (e) {
@@ -1551,7 +1551,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ ⚠️ ] Este comando esta restringido/desactivado por desición del propietario(a) (owner) del 𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '𝕵𝖔𝖘𝖘🩸', thumbnail: imagen1, sourceUrl: 'https://www.instagram.com/ancelzzz/'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: 'N4mecit4_🩸', thumbnail: imagen1, sourceUrl: 'https://instagram.com/n4mecit4?igshid=MTk0NTkyODZkYg=='}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 

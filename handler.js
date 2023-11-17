@@ -1551,7 +1551,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ ⚠️ ] Este comando esta restringido/desactivado por desición del propietario(a) (owner) del 𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: 'N4mecit4_🩸', thumbnail: imagen1, sourceUrl: 'https://instagram.com/n4mecit4?igshid=MTk0NTkyODZkYg=='}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: 'N4mecit4_🩸', thumbnail: imagen1, sourceUrl: 'https://instagram.com/n4mecit4'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 

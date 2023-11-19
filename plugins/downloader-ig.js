@@ -23,7 +23,7 @@ for (let i = 0; i < img.length; i++) {
     const datTa = await instagram.download(args[0]);
     for (const urRRl of datTa) {
       const shortUrRRl = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-      const tXXxt = `🔗 *Url:* ${shortUrRRl}`.trim();
+      const tXXxt = `🔗 *URL:* ${shortUrRRl}`.trim();
       conn.sendFile(m.chat, urRRl.url, 'error.mp4', tXXxt, m);
       await new Promise((resolve) => setTimeout(resolve, 10000));
     }

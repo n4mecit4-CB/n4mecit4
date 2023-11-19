@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 const handler = async (m, {text, usedPrefix, command}) => {
-if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +18 están desactivados en este grupo, si es admin y desea activarlos use ${usedPrefix}enable modohorny*`;   
+if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] 𝘓𝘖𝘚 𝘊𝘖𝘔𝘈𝘕𝘋𝘖𝘚 +18 𝘌𝘚𝘛Á𝘕 𝘋𝘌𝘚𝘈𝘊𝘛𝘐𝘝𝘈𝘋𝘖𝘚 𝘌𝘕 𝘌𝘚𝘛𝘌 𝘎𝘙𝘜𝘗𝘖, 𝘚𝘐 𝘌𝘚 𝘈𝘋𝘔𝘐𝘕 𝘠 𝘋𝘌𝘚𝘌𝘈 𝘈𝘊𝘛𝘐𝘝𝘈𝘙𝘓𝘖𝘚 𝘜𝘚𝘌 𝘌𝘓 𝘊𝘖𝘔𝘈𝘕𝘋𝘖 ${usedPrefix}enable modohorny*`;   
   if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝚄𝚂𝙾 𝙳𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command} Con mi prima*`;
   try {
     const vids_ = {

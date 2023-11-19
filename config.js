@@ -11,7 +11,7 @@ global.botnumber = ""
 
 global.owner = [
   ['56936399966', '👑 Ɲ4MЄƇƖƬ4_ƁƇ- Creador 👑', true],
-  ['56922396080', '💫 Ɲ4MЄƇƖƬ4_ƁƇ - Collaborator 1 💫', true]
+  ['56922396080', '💫 Ɲ4MЄƇƖƬ4_ƁƇ - Colaborador 1 💫', true]
 ];
 
 global.suittag = ['56936399966'];

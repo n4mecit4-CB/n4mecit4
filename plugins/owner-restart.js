@@ -1,7 +1,7 @@
 const handler = async (m, {conn, isROwner, text}) => {
   if (!process.send) throw 'Dont: node main.js\nDo: node index.js';
     // conn.readMessages([m.key])
-    await m.reply('*[ ⚠ ] Reiniciando el 𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️...*\n\n*—◉ Espere un momento para volver a usar el Bot, puede tomar unos minutos.*');
+    await m.reply('*[ ⚠ ] Reiniciando el Ɲ4MЄƇƖƬ4_ƁƇ...*\n\n*—◉ Espere un momento para volver a usar el Bot, puede tomar unos minutos.*');
     process.send('reset');
 };
 handler.help = ['restart'];

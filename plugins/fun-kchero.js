@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, text }) => {
-if (!text) throw `*⚠️ ESCRIBE EL NOMBRE DE DOS PERSONAS PARA CALCULAR SU ATRACCIÓN SEXUAL*`
+if (!text) throw `*⚠️ ESCRIBE EL NOMBRE DE DOS PERSONAS PARA CALCULAR SU ATRACCIÓN SEXUAL😈*`
 let [text1, ...text2] = text.split(' ')
 text2 = (text2 || []).join(' ')
 if (!text2) throw `*⚠️ ESCRIBE EL NOMBRE DE LA SEGUNDA PERSONA*`

@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, text }) => {
-  let { key } = await conn.sendMessage(m.chat, { text: "Ahora te voy a hacer una paja " }, { quoted: m });
+  let { key } = await conn.sendMessage(m.chat, { text: "Ahora te voy a hacer una rica paja😏 " }, { quoted: m });
   const array = [
     "8==👊==D", "8===👊=D", "8=👊===D", "8=👊===D", "8==👊==D", "8===👊=D", "8=👊===D", "8==👊==D", "8===👊=D", "8=👊===D","8==👊==D","8===👊=D","8===👊=D💦"
   ];

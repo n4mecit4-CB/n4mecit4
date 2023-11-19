@@ -14,7 +14,7 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
     if (d2ata.urls && d2ata.urls.length > 0) {
       r2es = `${d2ata.urls[0]?.hd || d2ata.urls[1]?.sd || ''}`;
     }
-    conn.sendFile(m.chat, r2es, 'error.mp4', `*𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾*`, m);
+    conn.sendFile(m.chat, r2es, 'error.mp4', `*𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾.*`, m);
   } catch (err1) {
     try {
       const req = await igeh(args[0]);

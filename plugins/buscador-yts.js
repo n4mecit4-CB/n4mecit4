@@ -2,7 +2,7 @@ import yts from 'yt-search';
 import fs from 'fs';
 
 const handler = async (m, {conn, text}) => {
-  if (!text) throw '⚠️ *_Que quieres que busque en YouTube?_*';
+  if (!text) throw '⚠️ *_𝘘𝘶𝘦 𝘲𝘶𝘪𝘦𝘳𝘦𝘴 𝘲𝘶𝘦 𝘣𝘶𝘴𝘲𝘶𝘦 𝘦𝘯 𝘠𝘰𝘶𝘛𝘶𝘣𝘦?_*';
   const results = await yts(text);
   const tes = results.all;
   const teks = results.all.map((v) => {

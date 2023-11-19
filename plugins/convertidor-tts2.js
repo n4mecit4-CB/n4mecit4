@@ -2,7 +2,7 @@
 
         [ ❗ ] CREDITOS - NO MODIFICAR [ ❗ ]
 
-           Codigo hecho por @BrunoSobrino
+           Codigo hecho por @BrunoSobrino.
        Github: https://github.com/BrunoSobrino
        
        Nota: Solo hay disponibles efectos en

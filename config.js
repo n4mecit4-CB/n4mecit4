@@ -10,39 +10,20 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['51930454874', '👑 𝙅𝙤𝙨𝙨- Creador 👑', true],
-  ['56922396080', '💫 𝙅𝙤𝙨𝙨 - Collaborator 1 💫', true],
-  ['5491162522169', '💫 𝙅𝙤𝙨𝙨 - Collaborator 2 💫', true],
-  ['56986469687', '💫 𝙅𝙤𝙨𝙨 - Collaborator 3 💫', true],
-  ['59174332123', '💫 𝙅𝙤𝙨𝙨 - Collaborator 4 💫', true],
-  ['59163552945', '💫 𝙅𝙤𝙨𝙨 - Collaborator 5 💫', true],
-  ['51923844756', '💫 𝙅𝙤𝙨𝙨 - Collaborator 6 💫', true],
-  ['51936144299', '💫 𝙅𝙤𝙨𝙨c - Collaborator 7 💫', false],
-  ['56986469687', '💫 𝙅𝙤𝙨𝙨- Collaborator 8 💫', true],
-  ['56986469687','💫 𝙅𝙤𝙨𝙨 - Tester Fabri115💫', true],
-  ['51930454874'],
-  ['50360082744'],
-  ['50360082744'],
-  ['50360082744'],
-  ['50360082744'],
-  ['5491162522169'],
-  ['5491162522169'],
-  ['5491162522169'], 
-  ['51930454874'],  
-  ['51930454874'], 
-  ['51930454874']
+  ['56936399966', '👑 Ɲ4MЄƇƖƬ4_ƁƇ- Creador 👑', true],
+  ['56922396080', '💫 Ɲ4MЄƇƖƬ4_ƁƇ - Collaborator 1 💫', true]
 ];
 
-global.suittag = ['51930454874'];
-global.prems = ['51930454874'];
+global.suittag = ['56936399966'];
+global.prems = ['56936399966'];
 
-global.packname = '💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞';
-global.author = '💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞';
-global.wm = '💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞';
-global.titulowm = '💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞';
-global.titulowm2 = `💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞`
-global.igfg = '💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞';
-global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
+global.packname = '💋Ɲ4MЄƇƖƬ4_ƁƇ 💞';
+global.author = '💋Ɲ4MЄƇƖƬ4_ƁƇ 💞';
+global.wm = '💋Ɲ4MЄƇƖƬ4_ƁƇ 💞';
+global.titulowm = '💋Ɲ4MЄƇƖƬ4_ƁƇ 💞';
+global.titulowm2 = `💋Ɲ4MЄƇƖƬ4_ƁƇ 💞`
+global.igfg = '💋Ɲ4MЄƇƖƬ4_ƁƇ 💞';
+global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -62,15 +43,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞`;
-global.gt = '💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞';
-global.mysticbot = '💋𝐍𝐚𝐦𝐞𝐜𝐢𝐭𝐚 💞';
-global.md = 'https://www.instagram.com/ancelzzz/';
-global.mysticbot = 'https://www.instagram.com/ancelzzz/';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 💋Ɲ4MЄƇƖƬ4_ƁƇ 💞`;
+global.gt = '💋Ɲ4MЄƇƖƬ4_ƁƇ 💞';
+global.mysticbot = '💋Ɲ4MЄƇƖƬ4_ƁƇ 💞';
+global.md = 'https://www.instagram.com/n4mecit4_bc/';
+global.mysticbot = 'https://www.instagram.com/n4mecit4_bc/';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
-global.nomorown = '51930454874';
+global.nomorown = '56926399966';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';

@@ -10,14 +10,14 @@ export async function before(m, {match}) {
       if (other) {
         await m.copyNForward(other, true);
       } else {
-        conn.sendMessage(m.chat, {text: `*[❗] No estás en un chat, por favor espera a estar en uno.*`}, {quoted: m});
+        conn.sendMessage(m.chat, {text: `*[❗] 𝘕𝘰 𝘦𝘴𝘵á𝘴 𝘦𝘯 𝘶𝘯 𝘤𝘩𝘢𝘵, 𝘱𝘰𝘳 𝘧𝘢𝘷𝘰𝘳 𝘦𝘴𝘱𝘦𝘳𝘢 𝘢 𝘦𝘴𝘵𝘢𝘳 𝘦𝘯 𝘶𝘯𝘰.*`}, {quoted: m});
       }
     }
   } else {
     if (!/^(next|leave|start)/.test(m.text)) {
       return;
     }
-    conn.sendMessage(m.chat, {text: `*[❗] No estás en un chat, por favor espera a estar en uno.*`}, {quoted: m});
+    conn.sendMessage(m.chat, {text: `*[❗] 𝘕𝘰 𝘦𝘴𝘵á𝘴 𝘦𝘯 𝘶𝘯 𝘤𝘩𝘢𝘵, 𝘱𝘰𝘳 𝘧𝘢𝘷𝘰𝘳 𝘦𝘴𝘱𝘦𝘳𝘢 𝘢 𝘦𝘴𝘵𝘢𝘳 𝘦𝘯 𝘶𝘯𝘰.*`}, {quoted: m});
   }
   return !0;
 }

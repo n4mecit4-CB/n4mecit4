@@ -10,7 +10,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   const str = json.items.map((repo, index) => {
   return `
 *${1 + index}. ${repo.full_name}${repo.fork ? ' (fork)' : ''}*
-🔗 *Url:* ${repo.html_url}
+🔗 *URL:* ${repo.html_url}
 📅 *Creado el:* ${formatDate(repo.created_at)}
 🔄 *Actualizado el:* ${formatDate(repo.updated_at)}
 📥 *Clone:* $ git clone ${repo.clone_url}

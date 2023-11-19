@@ -24,8 +24,8 @@ const handler = async (m, { conn, usedPrefix }) => {
   const info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
-╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *𝕵𝖔𝖘𝖘 🏴‍☠️*
-╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+56 9 8646 9687*
+╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *Ɲ4MЄƇƖƬ4_ƁƇ*
+╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+56922396080*
 ╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
 ╠➥ [🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: *${chats.length - groups.length}*
 ╠➥ [🦜] 𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: *${groups.length}* 
@@ -43,7 +43,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
 ╠  *${speed} ms* 
 ╠
-╠═〘 𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️ 〙 ═
+╠═〘 Ɲ4MЄƇƖƬ4_ƁƇ 〙 ═
 `.trim();
   const doc = [
     "pdf",
@@ -56,20 +56,20 @@ const handler = async (m, { conn, usedPrefix }) => {
   const Message = {
     document: { url: `https://www.instagram.com/ancelzzz/` },
     mimetype: `application/`,
-    fileName: `「  𝕵𝖔𝖘𝖘 𝕭𝖔𝖙 🏴‍☠️ 」`,
+    fileName: `「  Ɲ4MЄƇƖƬ4_ƁƇ 」`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://www.instagram.com/ancelzzz/",
+        mediaUrl: "https://www.instagram.com/n4mecit4_bc/",
         mediaType: 2,
         previewType: "pdf",
         title: "ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ",
         body: wm,
         thumbnail: imagen1,
-        sourceUrl: "https://www.instagram.com/ancelzzz/",
+        sourceUrl: "https://www.instagram.com/n4mecit4_bc/",
       },
     },
     caption: info,

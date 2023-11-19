@@ -8,7 +8,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *Opción:* 🌎 | MODO PUBLICO
 *Comando:* ${usedPrefix + command} public
 *Descripción:* El Bot se vuelve de uso publico y/o privado.
-*Nota:* Este comando solo podrá ser usado por owners del Bot.
+*Nota:* Este comando solo podrá ser usado por owners del BOT.
 
 --------------------------------
 

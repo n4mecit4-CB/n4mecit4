@@ -5,12 +5,12 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `*instagram.com/@n4mecit4_bc * ${pesan}`;
-  let teks = `*⺀✨єѕтáη мιѕ вαвуѕ✨⺀*\n\n ${oi}\n\n Iᥒ𝗍ᥱgrᥲᥒ𝗍ᥱs:😁\n`;
+  const oi = `*instagram.com/n4mecit4_bc * ${pesan}`;
+  let teks = `*⺀✨αтєη¢ιÓη ρℓє-вєℓℓσѕ✨⺀*\n\n ${oi}\n\n Iᥒ𝗍ᥱgrᥲᥒ𝗍ᥱs:😁\n`;
   for (const mem of participants) {
     teks += `*・☆ @${mem.id.split('@')[0]}\n`;
   }
-  teks += `*└* n4mecit4_ \n\n*😈*`;
+  teks += `*└*≋≋≋ @n4mecit4_bc ≋≋≋ \n\n*😈*`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];

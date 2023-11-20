@@ -939,8 +939,8 @@ export async function handler(chatUpdate) {
         if (!('sBye' in chat)) chat.sBye = '';
         if (!('sPromote' in chat)) chat.sPromote = '';
         if (!('sDemote' in chat)) chat.sDemote = '';
-        if (!('delete' in chat)) chat.antidelete = false;
-        if (!('modohorny' in chat)) chat.modohorny = false;
+        if (!('delete' in chat)) chat.antidelete = true;
+        if (!('modohorny' in chat)) chat.modohorny = true;
         if (!('autosticker' in chat)) chat.autosticker = false;
         if (!('audios' in chat)) chat.audios = false;
         if (!('antiLink' in chat)) chat.antiLink = false;
@@ -964,13 +964,13 @@ export async function handler(chatUpdate) {
           sBye: '',
           sPromote: '',
           sDemote: '',
-          antidelete: false,
+          antidelete: true,
           modohorny: true,
           autosticker: false,
           audios: true,
           antiLink: false,
           antiLink2: false,
-          antiviewonce: false,
+          antiviewonce: true,
           antiToxic: false,
           antiTraba: false,
           antiArab: false,
@@ -989,7 +989,7 @@ export async function handler(chatUpdate) {
         if (!('autoread2' in settings)) settings.autoread2 = false;
         if (!('restrict' in settings)) settings.restrict = false;
         if (!('antiCall' in settings)) settings.antiCall = false;
-        if (!('antiPrivate' in settings)) settings.antiPrivate = false;
+        if (!('antiPrivate' in settings)) settings.antiPrivate = true;
 	if (!('modejadibot' in settings)) settings.modejadibot = true;
         if (!('antispam' in settings)) settings.antispam = false;
 	if (!('audios_bot' in settings)) settings.audios_bot = true;  
@@ -1001,7 +1001,7 @@ export async function handler(chatUpdate) {
           autoread2: false,
           restrict: false,
           antiCall: false,
-          antiPrivate: false,
+          antiPrivate: true,
 	  modejadibot: true,
           antispam: false,
 	  audios_bot: true,
@@ -1183,7 +1183,7 @@ const messageText = `
  ❰ ⚠️ ❱ *¡USUARIO BANEADO!* ❰ ⚠️ ❱
 —◉ *Aviso ${messageNumber}/3 (Total: 3)*
 —◉ ${user.bannedReason ? `\n*Motivo:* ${user.bannedReason}` : '*Motivo:* Sin especificar'}
-—◉ *Si consideras que esto es un error y cuentas con pruebas, puedes comunicarte con el propietario del Ɲ4MЄƇƖƬ4_ƁƇ para apelar la suspensión.*
+—◉ *Si consideras que esto es un error y cuentas con pruebas, puedes comunicarte con el propietario de Ɲ4MЄƇƖƬ4_ƁƇ para apelar la suspensión.*
 —◉ *Contacto para apelaciones:* wa.me/56922396080
 ╚═════════════════════╝
                `.trim();
@@ -1552,7 +1552,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ ⚠️ ] Este comando esta restringido/desactivado por desición del propietario(a) (owner) del Ɲ4MЄƇƖƬ4_ƁƇ.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: 'N4mecit4_🩸', thumbnail: imagen1, sourceUrl: 'https://instagram.com/n4mecit4'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: 'N4mecit4_🩸', thumbnail: imagen1, sourceUrl: 'https://instagram.com/n4mecit4_bc'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 

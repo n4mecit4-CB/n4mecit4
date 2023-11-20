@@ -17,7 +17,7 @@ say('N4MECIT4\nWhatsApp Bot MD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot creado por @n4mecit4_bc`, {
+say(`Bot creado por instagram.com/n4mecit4_bc`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});

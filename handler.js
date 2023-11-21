@@ -939,8 +939,8 @@ export async function handler(chatUpdate) {
         if (!('sBye' in chat)) chat.sBye = '';
         if (!('sPromote' in chat)) chat.sPromote = '';
         if (!('sDemote' in chat)) chat.sDemote = '';
-        if (!('delete' in chat)) chat.antidelete = true;
-        if (!('modohorny' in chat)) chat.modohorny = true;
+        if (!('delete' in chat)) chat.antidelete = false;
+        if (!('modohorny' in chat)) chat.modohorny = false;
         if (!('autosticker' in chat)) chat.autosticker = false;
         if (!('audios' in chat)) chat.audios = false;
         if (!('antiLink' in chat)) chat.antiLink = false;
@@ -964,13 +964,13 @@ export async function handler(chatUpdate) {
           sBye: '',
           sPromote: '',
           sDemote: '',
-          antidelete: true,
-          modohorny: true,
+          antidelete: false,
+          modohorny: false,
           autosticker: false,
           audios: true,
           antiLink: false,
           antiLink2: false,
-          antiviewonce: true,
+          antiviewonce: false,
           antiToxic: false,
           antiTraba: false,
           antiArab: false,
@@ -989,7 +989,7 @@ export async function handler(chatUpdate) {
         if (!('autoread2' in settings)) settings.autoread2 = false;
         if (!('restrict' in settings)) settings.restrict = false;
         if (!('antiCall' in settings)) settings.antiCall = false;
-        if (!('antiPrivate' in settings)) settings.antiPrivate = true;
+        if (!('antiPrivate' in settings)) settings.antiPrivate = false;
 	if (!('modejadibot' in settings)) settings.modejadibot = true;
         if (!('antispam' in settings)) settings.antispam = false;
 	if (!('audios_bot' in settings)) settings.audios_bot = true;  
@@ -1001,7 +1001,7 @@ export async function handler(chatUpdate) {
           autoread2: false,
           restrict: false,
           antiCall: false,
-          antiPrivate: true,
+          antiPrivate: false,
 	  modejadibot: true,
           antispam: false,
 	  audios_bot: true,
@@ -1500,8 +1500,7 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Ɲ4MЄƇƖƬ4_ƁƇ
- 👑;;;\nFN:Ɲ4MЄƇƖƬ4_ƁƇ👑\nORG:Ɲ4MЄƇƖƬ4_ƁƇ👑\nTITLE:\nitem1.TEL;waid=56922396080:+56922396080\nitem1.X-ABLabel:Ɲ4MЄƇƖƬ4_ƁƇ👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:Ɲ4MЄƇƖƬ4_ƁƇ 👑\nEND:VCARD`;
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Ɲ4MЄƇƖƬ4_ƁƇ👑;;;\nFN:Ɲ4MЄƇƖƬ4_ƁƇ👑\nORG:Ɲ4MЄƇƖƬ4_ƁƇ👑\nTITLE:\nitem1.TEL;waid=56922396080:+56922396080\nitem1.X-ABLabel:Ɲ4MЄƇƖƬ4_ƁƇ👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:Ɲ4MЄƇƖƬ4_ƁƇ 👑\nEND:VCARD`;
         await mconn.conn.sendMessage(nk.from, {contacts: {displayName: 'Ɲ4MЄƇƖƬ4_ƁƇ 👑', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
